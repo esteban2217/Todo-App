@@ -22,3 +22,7 @@ $("input[type='text']").keypress(function(event){
     $('ul').append('<li><span><i class="far fa-trash-alt"></i></span> ' + todoText + '</li>');
   }
 })
+
+$('.fa-pencil-alt').click(function(){
+    $("input[type='text']").fadeToggle();
+})
